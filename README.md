@@ -22,8 +22,16 @@ TODO
 -----
 Files
 -----
-
-TODO
+* __combined_files__ - ToDo Description
+    * __MarylandPovertyRateToCrimeRateDatabase.sql__ - ToDo Description
+    * __MarylandPovertyRateToCrimeRateFlatTable.csv__ - ToDo Description
+* __individual_files__ - ToDo Description
+    * __jurisdiction.csv__ - ToDo Description
+    * __poverty_rate.csv__ - ToDo Description
+    * __violent_crime.csv__ - ToDo Description
+* __README.md__ - ToDo Description
+* __README.txt__ - ToDo Description
+ 
 
 -----------
 Data format
