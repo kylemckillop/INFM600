@@ -1,0 +1,7 @@
+1. Convert poverty document
+    1. Remove % symbol in order for it to be processed correctly in a database
+    2. Add a column for year, and transpose each yearly column into a row
+2. Convert crime document
+    1. Remove % symbol in order for it to be processed correctly in a database
+3. Both (Optional)
+    1. Create a new table that converts each county into a unique ID for a correctly normalized database, replace county names with their unique identifiers in the original document
