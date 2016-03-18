@@ -47,7 +47,9 @@ TODO
 License
 -------
 
-TODO
+The data in the INFM600 repository is distributed under a Creative Commons 
+Attribution-NonCommercial-ShareAlike 4.0 International License (see 
+http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ----------
 References
