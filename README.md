@@ -1,4 +1,4 @@
-# Dataset for Linking Maryland Crime and Poverty Rate, 2006 to 2013
+# Data Set for Linking Maryland Crime and Poverty Rate, 2006 to 2013
 #### University of Maryland, iSchool, INFM600 Information Discovery &amp; Analysis Project
 
 -------
