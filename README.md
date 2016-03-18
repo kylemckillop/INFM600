@@ -13,12 +13,14 @@ Description
 
 TODO
 
----------------
-Data statistics
----------------
 
-TODO
-	
+-----------
+What questions can be answered with this data set?
+-----------
+How does county poverty rate affect crime in Maryland? 
+
+We hypothesize that a higher poverty rate increases crime rate, but is that true for all types of crime?
+
 -----
 Files
 -----
@@ -55,10 +57,16 @@ TODO
 References
 ----------
 
-TODO
+Maryland Department of Planning. (2015, Nov 17). *Poverty Rate With Margin Of Error, 2006-2013* [Data set]. Retrieved from https://data.maryland.gov/Planning/Poverty-Rate-With-Margin-Of-Error-2006-2013/qnk2-m5pz
+
+Maryland Statistical Analysis Center. (2016, Feb 08). *Violent Crime & Property Crime by County: 1975 to Present* [Data set]. Retrieved from https://data.maryland.gov/Public-Safety/Violent-Crime-Property-Crime-by-County-1975-to-Pre/jwfa-fdxs
+
+
 
 -------
 Credits
 -------
 
-   This dataset was built by Kyle McKillop and Neha Chanchlani
+   This dataset was built by Kyle McKillop and Neha Chanchlani.  To reference, you can use the following citation:
+   
+   McKillop, K., Chanchlani, N. (2016, May 17). *Dataset for Linking Maryland Crime and Poverty Rate, 2006 to 2013* [Data set]. Retrieved from https://github.com/kylemckillop/INFM600/
