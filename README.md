@@ -78,4 +78,4 @@ Credits
 
    This dataset was built by Kyle McKillop and Neha Chanchlani.  To reference, you can use the following citation:
    
-   McKillop, K., Chanchlani, N. (2016, March 17). *Data Set for Linking Maryland Crime and Poverty Rate, 2006 to 2013* [Data set]. Retrieved from https://github.com/kylemckillop/INFM600/
+   McKillop, K., Chanchlani, N. (2016, March 20). *Data Set for Linking Maryland Crime and Poverty Rate, 2006 to 2013* [Data set]. Retrieved from https://github.com/kylemckillop/INFM600/
