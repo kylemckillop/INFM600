@@ -45,7 +45,7 @@ Initial Conclusions
 * By looking at the combined dataset, we found that the poverty rate has increased for every county from 2006 to 2013. 
 * Also by the first glance at the data of a few initial counties, we can see that as the rate of poverty increases, the rate of almost all types of crimes increases. Thus there exists a correlation between poverty rate and the crime rate.
 * To further see what type of crimes are more affected by the poverty or what types of crimes have a stronger correlation with the rate of poverty, we performed correlation in excel. Embedded  below is a plot graph of the strongest correlation: poverty to breaking and entering. Other plot graphs and correlation coefficients are included in a table for your convenience. 
-* 
+
 ![Plot Graph that shows a strong correlation between poverty and breaking and entering](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_breaking_and_entering.png)
 
 | Crime per 100k | Correlation Coefficient | Graph |
