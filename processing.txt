@@ -11,7 +11,7 @@ Converting Poverty Document
 ---------------------------
 1. Downloaded from: https://data.maryland.gov/Planning/Poverty-Rate-With-Margin-Of-Error-2006-2013/qnk2-m5pz
 2. Open in editor
-3. Remove % symbol in order for it to be processed correctly in a database (Note: this step is not needed if editing in excel, as excel will automatically format the cell as a percentage field)
+3. Remove % symbol in order for it to be processed correctly in a database (Note: this step is not needed if editing in Excel, as Excel will automatically format the cell as a percentage field)
 4. Add a column for year, a column for crime rate, and a column for margin of error
 5. Manually, transpose each yearly column into a row. Use the columns created in the previous step.
 
@@ -21,7 +21,7 @@ Converting Crime Rate Document
 ------------------------------
 1. Downloaded from https://data.maryland.gov/Public-Safety/Violent-Crime-Property-Crime-by-County-1975-to-Pre/jwfa-fdxs
 2. Open in editor
-3. Remove % symbol in order for it to be processed correctly in a database (Note: this step is not needed if editing in excel, as excel will automatically format the cell as a percentage field)
+3. Remove % symbol in order for it to be processed correctly in a database (Note: this step is not needed if editing in Excel, as Excel will automatically format the cell as a percentage field)
 
 ---------
 Combining
@@ -46,3 +46,10 @@ JOIN
   violent_crime AS vc ON vc.`jurisdiction_id` = pr.`jurisdiction_id` AND  vc.`year` = pr.`year`
 JOIN
   jurisdiction AS j ON pr.`jurisdiction_id` = j.`id`;
+  
+---------------------------------------------------
+Plot Graph, Trend Line, and Correlation Coefficient
+---------------------------------------------------
+1. Excell was used to generate the plot graph and trend line.  Use poverty rate for x field and your chosen crime for the y field.  
+2. The trendline was added by choosing the linear trendline option when generating the plot graph.
+3. Correlation Coefficient was calculated by ussing the CORREL(x,y) function in Excel. Chose the entire poverty set for x parameter and your chosen crime set for the y parameter. 
