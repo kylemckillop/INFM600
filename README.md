@@ -51,7 +51,7 @@ Initial Conclusions
 |Violent Crime Rate|  0.41 | [/graphs/poverty_to_violent_crime_rate.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_violent_crime_rate.png)  |
 |Rape| 0.40  |  [/graphs/poverty_to_rape.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_rape.png) |
 |Overall Crime Rate| 0.36  | [/graphs/poverty_to_overall_crime_rate.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_overall_crime_rate.png)  |
-|property crime rate per 100k| 0.33  | [/graphs/poverty_to_property_crime_rate.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_property_crime_rate.png)  |
+|Property Crime Rate| 0.33  | [/graphs/poverty_to_property_crime_rate.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_property_crime_rate.png)  |
 |Robbery| 0.31  | [/graphs/poverty_to_robbery.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_robbery.png)  |
 |Larceny Theft | 0.23  | [/graphs/poverty_to_larceny_theft.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_larceny_theft.png)  |
 | Motor Vehicle Theft  |  0.09 | [/graphs/poverty_to_motor_vehicle_theft.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_motor_vehicle_theft.png)  |
