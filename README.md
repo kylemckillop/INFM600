@@ -47,7 +47,7 @@ Initial Conclusions
 |---|---|---|
 |Breaking and Entering|0.59|[/graphs/poverty_to_breaking_and_entering.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_breaking_and_entering.png)|
 |Murder|0.48| [/graphs/poverty_to_murder.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_murder.png) |
-|Aggravated Assult|  0.43 | [/graphs/poverty_to_aggravated_assault.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_aggravated_assault.png)  |
+|Aggravated Assault|  0.43 | [/graphs/poverty_to_aggravated_assault.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_aggravated_assault.png)  |
 |Violent Crime Rate|  0.41 | [/graphs/poverty_to_violent_crime_rate.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_violent_crime_rate.png)  |
 |Rape| 0.40  |  [/graphs/poverty_to_rape.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_rape.png) |
 |Overall Crime Rate| 0.36  | [/graphs/poverty_to_overall_crime_rate.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_overall_crime_rate.png)  |
