@@ -1,7 +1,48 @@
-1. Convert poverty document
-    1. Remove % symbol in order for it to be processed correctly in a database
-    2. Add a column for year, and transpose each yearly column into a row
-2. Convert crime document
-    1. Remove % symbol in order for it to be processed correctly in a database
-3. Both (Optional)
-    1. Create a new table that converts each county into a unique ID for a correctly normalized database, replace county names with their unique identifiers in the original document
+-----------------------------------------
+Normalizing for Database Entry (Optional)
+-----------------------------------------
+1. Create a new table with an auto-incrementing ID and a name field.
+2. Name this table "jurisidictions"
+3. Create a row for each unique county name with an associated unique ID
+4. When converting Poverty and Crime Rate Documents, replace county names with their unique identifiers
+
+---------------------------
+Converting Poverty Document
+---------------------------
+1. Downloaded from: https://data.maryland.gov/Planning/Poverty-Rate-With-Margin-Of-Error-2006-2013/qnk2-m5pz
+2. Open in editor
+3. Remove % symbol in order for it to be processed correctly in a database (Note: this step is not needed if editing in excel, as excel will automatically format the cell as a percentage field)
+4. Add a column for year, a column for crime rate, and a column for margin of error
+5. Manually, transpose each yearly column into a row. Use the columns created in the previous step.
+
+
+------------------------------
+Converting Crime Rate Document
+------------------------------
+1. Downloaded from https://data.maryland.gov/Public-Safety/Violent-Crime-Property-Crime-by-County-1975-to-Pre/jwfa-fdxs
+2. Open in editor
+3. Remove % symbol in order for it to be processed correctly in a database (Note: this step is not needed if editing in excel, as excel will automatically format the cell as a percentage field)
+
+---------
+Combining
+---------
+1. Combine using a joining on your tables.  You will want to join your poverty document on matching jurisdiction (county) and year in the crime document.
+2. Sample query (if you imported into a database):
+
+SELECT
+  j.`name`,
+  pr.`year`,
+  pr.`rate`,
+  vc.`murder_per_100k`,
+  vc.`rape_per_100k`,
+  vc.`robbery_per_100k`,
+  vc.`agg_assult_per_100k`,
+  vc.`b_and_e_per_100k`,
+  vc.`larceny_theft_per_100k`,
+  vc.`mv_theft_per_100k`
+FROM
+  poverty_rate AS pr
+JOIN
+  violent_crime AS vc ON vc.`jurisdiction_id` = pr.`jurisdiction_id` AND  vc.`year` = pr.`year`
+JOIN
+  jurisdiction AS j ON pr.`jurisdiction_id` = j.`id`;
