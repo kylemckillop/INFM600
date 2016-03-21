@@ -12,7 +12,7 @@ Description
 -----------
 
 We worked to combine two publically available Maryland data sets:
-* __Crime by County__ Maryland county crime rates by year. Population is given for each county. (Maryland Statistical Analysis Center, 2016)
+* __Crime by County__ Maryland county crime rates by year. Population is given for each year in each county. Statitics are given for the number of different types of crimes such as: larceny theft, murder, breaking and entering, etc. A percentage change for each crime from the previous year is also given.  (Maryland Statistical Analysis Center, 2016)
 * __Poverty Rate__ Maryland county poverty rates and margin of error for the years 2006 to 2013. Data from the US Census Bureau was used to formulate these poverty rates. (Maryland Department of Planning, 2015)
 
 By combining on county name and year, we have created a new table and database that can allow users to directly compare county poverty rates to crime rates for the years 2006 to 2013.
@@ -31,6 +31,7 @@ Files
 * __/graphs/*__ - Folder containing plot graphs of initial findings with trend lines
 * __README.txt__ - txt version of this markdown readme file
 * __processing.txt__ - Steps taken to sanitize and combine original data into the format presented
+* __package.zip__ - This repository packaged in a zip file
  
 -----------
 What questions can be answered with this data set?
@@ -44,7 +45,8 @@ Initial Conclusions
 -----------
 * By looking at the combined dataset, we found that the poverty rate has increased for every county from 2006 to 2013. 
 * Also by the first glance at the data of a few initial counties, we can see that as the rate of poverty increases, the rate of almost all types of crimes increases. Thus there exists a correlation between poverty rate and the crime rate.
-* To further see what type of crimes are more affected by the poverty or what types of crimes have a stronger correlation with the rate of poverty, we performed correlation in excel to produce a correlation coefficient from 1 to -1.  1 being exactly positively correlated, -1 being exactly negatively correlated, and 0 meaning no correlation.
+
+To further see what type of crimes are more affected by the poverty or what types of crimes have a stronger correlation with the rate of poverty, we performed correlation in excel to produce a correlation coefficient from 1 to -1.  1 being exactly positively correlated, -1 being exactly negatively correlated, and 0 meaning no correlation.
  
 Our strongest correlation, poverty to breaking and entering, is provided in an embeded plot graph below, with excel's linear trendline generated on the plot (with slope information shown). Other plot graphs and correlation coefficients are included in a table for your convenience. 
 
@@ -84,6 +86,6 @@ Maryland Statistical Analysis Center. (2016, Feb 08). *Violent Crime & Property 
 Credits
 -------
 
-   This dataset was built by Kyle McKillop and Neha Chanchlani.  To reference, you can use the following citation:
+   This dataset was built by Kyle McKillop and Neha Chanchlani.  To reference, please use references above and the following citation:
    
    McKillop, K., Chanchlani, N. (2016, March 20). *Data Set for Linking Maryland Crime and Poverty Rate, 2006 to 2013* [Data set]. Retrieved from https://github.com/kylemckillop/INFM600/
