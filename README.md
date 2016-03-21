@@ -12,10 +12,10 @@ Description
 -----------
 
 We worked to combine two publically available Maryland data sets:
-* __Crime by County__ Maryland county crime rates by year. Population is given for each county  
+* __Crime by County__ Maryland county crime rates by year. Population is given for each county. (Maryland Statistical Analysis Center, 2016)
 * __Poverty Rate__ Maryland county poverty rates and margin of error for the years 2006 to 2013. Data from the US Census Bureau was used to formulate these poverty rates. (Maryland Department of Planning, 2015)
 
-
+By combining on county name and year, we have created a new table and database that can allow users to directly compare county poverty rates to crime rates for the years 2006 to 2013.
 
 
 -----
@@ -25,9 +25,9 @@ Files
     * __MarylandPovertyRateToCrimeRateDatabase.sql__ - Import of /individual_files/* for a MySQL database
     * __MarylandPovertyRateToCrimeRateFlatTable.csv__ - Join of /individual_files/* as one table for ease of use
 * __/individual_files/__
-    * __jurisdiction.csv__ - ID and name of the County.
-    * __poverty_rate.csv__ - ID of the county from the above table, and the associated rate of poverty and Margin of Error for the years 2006 to 2013
-    * __violent_crime.csv__ - ID of county from the jurisdiction.csv, number of different types of crimes, their rate per 100k and percent change in their rate from the previous year
+    * __jurisdiction.csv__ - ID and name of the County
+    * __poverty_rate.csv__ - ID of county from the jurisdiction.csv, and the associated rate of poverty and margin of error for the years 2006 to 2013
+    * __violent_crime.csv__ - ID of county from the jurisdiction.csv, number of different types of crimes, their rate per 100k and percent change in their rate from the previous year for the years 1975 to 2014
  * __/graphs/*__ - Folder containing plot graphs of initial findings with trend lines
 * __README.txt__ - txt version of this markdown readme file
 * __processing.txt__ - Steps taken to sanitize and combine original data into the format presented
@@ -43,7 +43,18 @@ We hypothesize that a higher poverty rate increases crime rate, but is that true
 Initial Conclusions
 -----------
 
-TODO
+| Crime | Correlation Coefficient | Graph |
+|---|---|---|
+|b and e per 100k|0.59|[/graphs/poverty_to_breaking_and_entering.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_breaking_and_entering.png)|
+|murder per 100k|0.48| [/graphs/poverty_to_murder.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_murder.png) |
+|agg assult per 100k|  0.43 | [/graphs/poverty_to_aggravated_assault.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_aggravated_assault.png)  |
+|violent crime rate per 100k|  0.41 | [/graphs/poverty_to_violent_crime_rate.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_violent_crime_rate.png)  |
+|rape per 100k| 0.40  |  [/graphs/poverty_to_rape.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_rape.png) |
+|overall crime rate per 100k| 0.36  | [/graphs/poverty_to_overall_crime_rate.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_overall_crime_rate.png)  |
+|property crime rate per 100k| 0.33  | [/graphs/poverty_to_property_crime_rate.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_property_crime_rate.png)  |
+|  robbery per 100k | 0.31  | [/graphs/poverty_to_robbery.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_robbery.png)  |
+| larceny theft per 100k  | 0.23  | [/graphs/poverty_to_larceny_theft.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_larceny_theft.png)  |
+| mv theft per 100k  |  0.09 | [/graphs/poverty_to_motor_vehicle_theft.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_motor_vehicle_theft.png)  |
 
 ------- 
 License
