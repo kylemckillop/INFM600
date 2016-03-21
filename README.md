@@ -11,7 +11,9 @@ Version 1.0 (March 2016)
 Description
 -----------
 
-TODO
+We worked to combine two publically available Maryland data sets:
+* __Crime by County__ Maryland county crime rates by year. Population is given for each county  
+* __Poverty Rate__ Maryland county poverty rates and margin of error for the years 2006 to 2013. Data from the US Census Bureau was used to formulate these poverty rates. (Maryland Department of Planning, 2015)
 
 
 
@@ -19,16 +21,16 @@ TODO
 -----
 Files
 -----
-* __combined_files__ - ToDo Description
-    * __MarylandPovertyRateToCrimeRateDatabase.sql__ - ToDo Description
-    * __MarylandPovertyRateToCrimeRateFlatTable.csv__ - ToDo Description
-* __individual_files__ - ToDo Description
-    * __jurisdiction.csv__ - ToDo Description
-    * __poverty_rate.csv__ - ToDo Description
-    * __violent_crime.csv__ - ToDo Description
-* __README.md__ - ToDo Description
-* __README.txt__ - ToDo Description
-* __processing.txt__ - ToDo Description
+* __/combined_files/__ 
+    * __MarylandPovertyRateToCrimeRateDatabase.sql__ - Import of /individual_files/* for a MySQL database
+    * __MarylandPovertyRateToCrimeRateFlatTable.csv__ - Join of /individual_files/* as one table for ease of use
+* __/individual_files/__
+    * __jurisdiction.csv__ - ID and name of the County.
+    * __poverty_rate.csv__ - ID of the county from the above table, and the associated rate of poverty and Margin of Error for the years 2006 to 2013
+    * __violent_crime.csv__ - ID of county from the jurisdiction.csv, number of different types of crimes, their rate per 100k and percent change in their rate from the previous year
+ * __/graphs/*__ - Folder containing plot graphs of initial findings with trend lines
+* __README.txt__ - txt version of this markdown readme file
+* __processing.txt__ - Steps taken to sanitize and combine original data into the format presented
  
 -----------
 What questions can be answered with this data set?
