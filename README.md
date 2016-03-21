@@ -28,7 +28,7 @@ Files
     * __jurisdiction.csv__ - ID and name of the County
     * __poverty_rate.csv__ - ID of county from the jurisdiction.csv, and the associated rate of poverty and margin of error for the years 2006 to 2013
     * __violent_crime.csv__ - ID of county from the jurisdiction.csv, number of different types of crimes, their rate per 100k and percent change in their rate from the previous year for the years 1975 to 2014
- * __/graphs/*__ - Folder containing plot graphs of initial findings with trend lines
+* __/graphs/*__ - Folder containing plot graphs of initial findings with trend lines
 * __README.txt__ - txt version of this markdown readme file
 * __processing.txt__ - Steps taken to sanitize and combine original data into the format presented
  
