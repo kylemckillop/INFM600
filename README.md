@@ -43,18 +43,18 @@ We hypothesize that a higher poverty rate increases crime rate, but is that true
 Initial Conclusions
 -----------
 
-| Crime | Correlation Coefficient | Graph |
+| Crime per 100k | Correlation Coefficient | Graph |
 |---|---|---|
-|b and e per 100k|0.59|[/graphs/poverty_to_breaking_and_entering.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_breaking_and_entering.png)|
-|murder per 100k|0.48| [/graphs/poverty_to_murder.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_murder.png) |
-|agg assult per 100k|  0.43 | [/graphs/poverty_to_aggravated_assault.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_aggravated_assault.png)  |
-|violent crime rate per 100k|  0.41 | [/graphs/poverty_to_violent_crime_rate.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_violent_crime_rate.png)  |
-|rape per 100k| 0.40  |  [/graphs/poverty_to_rape.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_rape.png) |
-|overall crime rate per 100k| 0.36  | [/graphs/poverty_to_overall_crime_rate.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_overall_crime_rate.png)  |
+|Breaking and Entering|0.59|[/graphs/poverty_to_breaking_and_entering.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_breaking_and_entering.png)|
+|Murder|0.48| [/graphs/poverty_to_murder.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_murder.png) |
+|Aggravated Assult|  0.43 | [/graphs/poverty_to_aggravated_assault.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_aggravated_assault.png)  |
+|Violent Crime Rate|  0.41 | [/graphs/poverty_to_violent_crime_rate.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_violent_crime_rate.png)  |
+|Rape| 0.40  |  [/graphs/poverty_to_rape.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_rape.png) |
+|Overall Crime Rate| 0.36  | [/graphs/poverty_to_overall_crime_rate.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_overall_crime_rate.png)  |
 |property crime rate per 100k| 0.33  | [/graphs/poverty_to_property_crime_rate.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_property_crime_rate.png)  |
-|  robbery per 100k | 0.31  | [/graphs/poverty_to_robbery.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_robbery.png)  |
-| larceny theft per 100k  | 0.23  | [/graphs/poverty_to_larceny_theft.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_larceny_theft.png)  |
-| mv theft per 100k  |  0.09 | [/graphs/poverty_to_motor_vehicle_theft.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_motor_vehicle_theft.png)  |
+|Robbery| 0.31  | [/graphs/poverty_to_robbery.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_robbery.png)  |
+|Larceny Theft | 0.23  | [/graphs/poverty_to_larceny_theft.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_larceny_theft.png)  |
+| Motor Vehicle Theft  |  0.09 | [/graphs/poverty_to_motor_vehicle_theft.png](https://raw.githubusercontent.com/kylemckillop/INFM600/master/graphs/poverty_to_motor_vehicle_theft.png)  |
 
 ------- 
 License
